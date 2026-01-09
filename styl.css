@@ -1,0 +1,397 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: -webkit-linear-gradient(rgb(221, 186, 162), rgb(221, 186, 162), rgb(221, 186, 162)); /* For Safari 5.1 to 6.0 */
+   background: -o-linear-gradient(rgb(118, 176, 199), rgb(221, 186, 162), rgb(221, 186, 162)); /* For Opera 11.1 to 12.0 */
+   background: -moz-linear-gradient(rgb(123, 163, 189),rgb(221, 186, 162), rgb(221, 186, 162)); /* For Firefox 3.6 to 15 */
+   background: linear-gradient(rgb(24, 102, 148),rgb(145, 188, 194), rgb(197, 154, 126)); /* Standard syntax */
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.d-grid {
+    display: grid;
+}
+
+.d-flex {
+    display: flex;
+    display: -webkit-flex;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+button,
+input,
+select {
+    -webkit-appearance: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+button,
+.btn,
+select {
+    cursor: pointer;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0
+}
+
+p {
+    color: #666;
+    font-size: 16px;
+    line-height: 25px;
+    opacity: .6;
+}
+
+.p-relative {
+    position: relative;
+}
+
+.p-absolute {
+    position: absolute;
+}
+
+.p-fixed {
+    position: fixed;
+}
+
+.p-sticky {
+    position: sticky;
+}
+
+.btn,
+button,
+.actionbg,
+input {
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    -ms-border-radius: 4px;
+}
+
+.btn:hover,
+button:hover {
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+}
+
+/*-- wrapper start --*/
+.wrapper {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 576px) {
+    .wrapper {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .wrapper {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .wrapper {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .wrapper {
+        max-width: 1140px;
+    }
+}
+
+.wrapper-full {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*-- //wrapper start --*/
+
+/*-- form styling --*/
+.mem-form1 {
+    position: relative;
+    z-index: 0;
+    background: rgba(211, 146, 116, 0.1);
+    padding: 2px 2px;
+}
+
+.container {
+    width: 65%;
+    height: auto;  
+    margin: 0 auto;
+    top: 5%;
+    bottom: 5%;
+    margin-right:18%;
+    max-height:60%;
+}
+
+.mem_form {
+    padding: 0px;
+    flex-basis: 50%;
+    -webkit-flex-basis: 50%;
+    background: #060707;
+    padding: 100px 50px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-wthree {
+    flex-basis: 60%;
+    -webkit-flex-basis: 60%;
+    box-sizing: border-box;
+    padding: 0.5em 1em;
+    background: #fff;
+    box-shadow: 2px 9px 49px -17px rgba(0, 0, 0, 0.1);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+
+}
+
+.w3l-workinghny-form .logo {
+    text-align: center;
+}
+
+.mem-form1 .main-mockup {
+    position: relative;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    margin: 20px 0;
+    
+}
+
+.mem-form1 .alert-close {
+    cursor: pointer;
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    background: #6499c5 ;
+    border-radius: 50px;
+    color: #fff;
+    text-align: center;
+}
+
+.mem-form1 form {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.social-icons {
+    text-align: center;
+}
+
+.mem-form1 h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    color: #3b3663;
+    color:#f1e3d6;
+}
+
+.mem-form1 h2 {
+    display: inline-block;
+    font-size: 25px;
+    line-height: 35px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #3b3663;
+}
+
+.mem-form1 input {
+    outline: none;
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #999;
+    text-align: left;
+    padding: 14px 20px;
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background: transparent;
+    border: 1px solid #e5e5e5;
+    transition: 0.3s all ease;
+}
+
+.mem-form1 input:focus {
+    border-color: #538aaf;
+}
+
+#btn {
+    font-size: 18px;
+    color: #fff; 
+    width: 100%;
+    background: #e2adba;
+    border: none;
+    padding: 14px 15px;
+    font-weight: 500;
+    transition: .3s ease;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -ms-transition: .3s ease;
+    -o-transition: .3s ease;
+}
+
+.mem-form1 #btn:hover {
+    background: #6499c5 
+}
+
+
+
+.copyright p {
+    text-align: center;
+    font-size: 17px;
+    line-height: 26px;
+    color: #607863;
+    opacity: 1;
+}
+
+p.copy-footer-29 a {
+    color: #517856;
+}
+
+p.copy-footer-29 a:hover {
+    color: #d49f96;
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+}
+
+
+
+
+/*-- responsive design --*/
+
+@media (max-width:736px) {
+    .mem-form1 .main-mockup {
+        flex-direction: column;
+    }
+
+    .mem_form {
+        order: 2;
+        padding: 50px;
+        border-radius: 0;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+
+    .content-wthree {
+        order: 1;
+        border-radius: 0;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+    }
+}
+
+@media (max-width:568px) {
+    .mem-form1 h1 {
+        font-size: 30px;
+    }
+
+    .mem-form1 .main-mockup {
+        margin: 30px 0;
+    }
+
+    .content-wthree {
+        padding: 2.5em;
+    }
+}
+
+@media (max-width: 415px) {
+    .mem-form1 {
+        padding: 40px 30px;
+    }
+
+}
+
+@media (max-width:384px) {
+    .mem-form1 {
+        padding: 30px 15px;
+    }
+
+    .content-wthree {
+        padding: 2em;
+    }
+
+    .mem-form1 h1 {
+        font-size: 28px;
+    }
+
+    .mem-form1 h2 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .copyright p {
+        font-size: 16px;
+    }
+}
+.sex select{
+    width:20%;
+    color: #d49f96
+}
+.input{
+    display:flex;
+   
+}
+
